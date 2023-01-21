@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B2244A4C-B839-4B62-A58F-4637C2BC1344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkCenter", "WorkCenter", "{69A31CC6-51BC-421E-8CDB-B8CC33C0819F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkCenter.API", "WorkCenter.API", "{EF4E8AD3-F53F-4F09-927C-2267560C80A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkCenter.API", "Services\WorkCenter\WorkCenter.API\WorkCenter.API.csproj", "{2667317B-891E-4434-9724-FA558B6BDC75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2667317B-891E-4434-9724-FA558B6BDC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2667317B-891E-4434-9724-FA558B6BDC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2667317B-891E-4434-9724-FA558B6BDC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2667317B-891E-4434-9724-FA558B6BDC75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69A31CC6-51BC-421E-8CDB-B8CC33C0819F} = {B2244A4C-B839-4B62-A58F-4637C2BC1344}
+		{EF4E8AD3-F53F-4F09-927C-2267560C80A4} = {69A31CC6-51BC-421E-8CDB-B8CC33C0819F}
+		{2667317B-891E-4434-9724-FA558B6BDC75} = {EF4E8AD3-F53F-4F09-927C-2267560C80A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C24F3DB8-C285-4235-ABDD-46A0E3BBD1F4}
+	EndGlobalSection
+EndGlobal
